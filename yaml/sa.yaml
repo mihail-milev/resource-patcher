@@ -1,0 +1,5 @@
+kind: ServiceAccount
+apiVersion: v1
+metadata:
+  name: resource-patcher-controller
+  namespace: kube-system

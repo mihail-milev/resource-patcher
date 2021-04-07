@@ -1,0 +1,13 @@
+kind: ResourcePatch
+apiVersion: mmilev.io/v1alpha1
+metadata:
+  name: just-a-test-patch
+spec:
+  targetObj:
+    name: test-cm
+    namespace: default
+    kind: ConfigMap
+    apiVersion: v1
+  patch: |
+    data:
+      another: cool
